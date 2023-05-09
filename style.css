@@ -27,3 +27,24 @@ a {
   text-decoration: none;
   border-radius: 5px;
 }
+/*desktop*/
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/*tablet*/
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+
+/*mobile*/
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
