@@ -1,0 +1,29 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 40px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-top: 20px;
+}
+
+a {
+  display: block;
+  padding: 10px;
+  background-color: #eee;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+}
